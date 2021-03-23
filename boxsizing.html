@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Bordas</title>
+<link rel="stylesheet" type="text/css" href="normalize.css">
+<style type="text/css">
+
+#petalaES {
+  border-radius: 350px 650px 5px 550px;
+  position: fixed;
+  background: red;
+  top: 20%;
+  left: 5%;
+  }
+#petalaEI {
+  border-radius: 550px 5px 650px 350px;
+  background: purple;
+  position: fixed;
+  left: 5%;
+  top: 50%;
+}
+#petalaDS {
+  border-radius: 650px 350px 550px 5px;
+  position: fixed;
+  background: green;
+  right: 60%;
+  top: 20%;
+}
+#petalaDI {
+  border-radius: 5px 550px 350px 650px;
+  position: fixed;
+  background: blue;
+  top: 50%;
+  right: 60%
+}
+
+#coneSD {
+  border-radius: 5px 250px 5px 5px;
+  position: fixed;
+  background: blue;
+  right: 11%;
+  top: 20%;
+}
+#coneID {
+  border-radius: 5px 5px 250px 5px;
+  position: fixed;
+  background: green;
+  right: 11%;
+  top: 50%;
+}
+
+#coneIE {
+  border-radius: 5px 5px 5px 250px;
+  background: red;
+  position: fixed;
+  right: 25%;
+  top: 50%; 
+}
+
+#coneSE {
+  border-radius: 250px 5px 5px 5px;
+  background: purple;
+  position: fixed;
+  top: 20%;
+  right: 25%; 
+}
+
+
+.tamanhoFlor{
+	padding: 20px; 
+	width: 200px;	
+	height: 150px;
+}
+
+.tamanhoCirc{
+	padding: 20px; 
+  width: 150px;
+  height: 150px;
+}
+
+.leftbar {
+    position: fixed;
+    background-color: lightgrey;
+  	border: 15px;
+    padding: 20px; 
+    width: 50%;
+    height: 100%;
+    right: auto;
+    left: 0;
+  }
+
+.rightbar {
+	position: fixed;
+	background-color: lightgrey;
+  	border: 15px;
+    padding: 20px; 
+	width: 50%;
+	height: 100%;
+	right: 0;
+	left: auto;
+}
+
+</style>
+</head>
+<body>
+	
+	<div class="leftbar">
+		<p class="tamanhoFlor" id="petalaES"></p>
+		<p class="tamanhoFlor" id="petalaEI"></p>
+		<p class="tamanhoFlor" id="petalaDS"></p>
+		<p class="tamanhoFlor" id="petalaDI"></p>
+	</div>
+
+	<div class="rightbar">
+		<p class="tamanhoCirc" id="coneSD"></p>
+		<p class="tamanhoCirc" id="coneID"></p>
+		<p class="tamanhoCirc" id="coneIE"></p>
+		<p class="tamanhoCirc" id="coneSE"></p>
+	</div>
+		
+
+	
+</body>
+
+</html>
